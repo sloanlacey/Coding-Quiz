@@ -114,6 +114,24 @@ choices.forEach((choice) => {
     });
 });
 
+var secondsLeft = 60;
+
+function setTime() {
+    var timerEl = document.querySelector(".timer");
+    var timerInterval = setInterval(function() {
+      secondsLeft--;
+      timerEl.textContent = "Timer: " + secondsLeft;
+  
+      if(secondsLeft === 0) {
+        clearInterval(timerInterval);
+        sendMessage();
+      }
+  
+    }, 1000);
+  }
+
+  setTime();
+
 incrementScore = num => {
     score += num;
     scoreText.innerText = score;

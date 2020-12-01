@@ -20,7 +20,7 @@ h4 {
 
 h1 {
     font-size: 5.4rem;
-    color: #006859;
+    color: #4cb7a5;
     margin-bottom: 5rem;
 }
 
@@ -100,7 +100,7 @@ p {
 
 .btn:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgb(86, 185, 235, 0.5);
+    box-shadow: 0 0.4rem 1.4rem 0 #4CB7A5(86, 185, 235, 0.5);
     transform: translateY(-0.1rem);
     transition: transform 150ms;
     background-color: #4CB7A5;
