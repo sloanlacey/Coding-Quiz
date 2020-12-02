@@ -70,7 +70,7 @@ getNewQuestion = () => {
 
     if(availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
-        return window.location.assign('/Users/io/code/Coding-Quiz/endquiz.html');
+        return window.location.assign("./endquiz.html");
     }
     questionCounter++;
     progressText.innerText = "Question " + questionCounter + "/" + MAX_QUESTIONS;
@@ -123,8 +123,7 @@ function setTime() {
       timerEl.textContent = "Timer: " + secondsLeft;
   
       if(secondsLeft === 0) {
-        clearInterval(timerInterval);
-        sendMessage();
+        return window.location.assign("./gameover.html")
       }
   
     }, 1000);

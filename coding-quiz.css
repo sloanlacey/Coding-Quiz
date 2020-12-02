@@ -130,3 +130,27 @@ input {
     border: none;
     box-shadow: 0 0.1rem 1.4rem 0 #4CB7A5;
 }
+
+/* Game Over */
+
+.gameOver {
+    font-size: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20rem;
+    text-shadow: 0 0 2.5rem #4cb7a5;
+}
+
+/* .tryAgain {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    width: 20rem;
+    text-align: center;
+    border: 0.1rem solid #4CB7A5;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #4CB7A5;
+    background-color: #181818;
+} */
