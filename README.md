@@ -8,9 +8,11 @@ Scores and user names are stored in local storage.
 
 -[General Information](###general-information)
 -[Home Page](###home-page)
-
-
-
+-[Question 1](###question-1)
+-[Question 2](###question-2)
+-[Question 3](###question-3)
+-[Question 4](###question-4)
+-[Question 5](###question-5)
 
 ### General Information
 
@@ -32,4 +34,26 @@ THEN I can save my initials and score
 
 ### Home Page
 
-![Home Page](coding-quiz/assets/homepage.png)
+![Home Page](/coding-quiz/assets/homepage.png)
+
+
+### Question 1
+
+![Question 1](/coding-quiz/assets/Question1.png)
+
+### Question 2
+
+![Question 2](/coding-quiz/assets/Question2.png)
+
+### Question 3
+
+![Question 3](/coding-quiz/assets/Question3.png)
+
+### Question 4
+
+![Question 4](/coding-quiz/assets/Question4.png)
+
+### Question 5
+
+![Question 5](/coding-quiz/assets/Question5.png)
+
