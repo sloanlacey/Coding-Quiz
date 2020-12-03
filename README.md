@@ -13,6 +13,10 @@ Scores and user names are stored in local storage.
 -[Question 3](###question-3)
 -[Question 4](###question-4)
 -[Question 5](###question-5)
+-[End Page](###end-page)
+-[High Scores](###high-scores-page)
+-[Game Over](###game-over)
+-[Technologies](###technologies)
 
 ### General Information
 
@@ -34,26 +38,49 @@ THEN I can save my initials and score
 
 ### Home Page
 
-![Home Page](/coding-quiz/assets/homepage.png)
+![Home Page](https://github.com/sloanlacey/Coding-Quiz/blob/main/Assets/homepage.png)
 
 
 ### Question 1
 
-![Question 1](/coding-quiz/assets/Question1.png)
+![Question 1](https://github.com/sloanlacey/Coding-Quiz/blob/main/Assets/Question1.png)
 
 ### Question 2
 
-![Question 2](/coding-quiz/assets/Question2.png)
+![Question 2](https://github.com/sloanlacey/Coding-Quiz/blob/main/Assets/Question2.png)
 
 ### Question 3
 
-![Question 3](/coding-quiz/assets/Question3.png)
+![Question 3](https://github.com/sloanlacey/Coding-Quiz/blob/main/Assets/Question3.png)
 
 ### Question 4
 
-![Question 4](/coding-quiz/assets/Question4.png)
+![Question 4](https://github.com/sloanlacey/Coding-Quiz/blob/main/Assets/Question4.png)
 
 ### Question 5
 
-![Question 5](/coding-quiz/assets/Question5.png)
+![Question 5](https://github.com/sloanlacey/Coding-Quiz/blob/main/Assets/Question5.png)
 
+### End Page
+
+![End Page](https://github.com/sloanlacey/Coding-Quiz/blob/main/Assets/Endpage.png)
+
+### High Scores Page
+
+![High Scores Page](https://github.com/sloanlacey/Coding-Quiz/blob/main/Assets/Highscores.png)
+
+### Game Over
+
+![Game Over](https://github.com/sloanlacey/Coding-Quiz/blob/main/Assets/Gameover.png)
+
+### Technologies
+
+This project was created with:
+
+-HTML
+-CSS
+-JavaScript
+
+### Author
+
+-Sloan Lacey ([github.com/sloanlacey](github.com/sloanlacey))
