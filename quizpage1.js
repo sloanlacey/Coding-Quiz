@@ -56,13 +56,13 @@ let questions = [
 // Constants
 
 const CORRECT_BONUS = 10;
+const INCORRECT_BONUS = -10;
 const MAX_QUESTIONS = 5;
 
 startGame = () => {
     questionCounter = 0;
     score = 0;
     availableQuestions = [...questions];
-    console.log(availableQuestions);
     getNewQuestion();
 }
 
@@ -97,11 +97,15 @@ choices.forEach((choice) => {
         acceptingAnswers = false;
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset['number'];
-// Ask Phil about the line below
+
         const classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 
         if(classToApply === "correct") {
             incrementScore(CORRECT_BONUS);
+        } 
+
+        else if(classToApply === "incorrect") {
+            incrementScore(INCORRECT_BONUS);
         }
 
         selectedChoice.parentElement.classList.add(classToApply);
@@ -122,7 +126,7 @@ function setTime() {
       secondsLeft--;
       timerEl.textContent = "Timer: " + secondsLeft;
   
-      if(secondsLeft === 0) {
+      if (secondsLeft === 0) {
         return window.location.assign("./gameover.html")
       }
   
