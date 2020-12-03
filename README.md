@@ -32,4 +32,4 @@ THEN I can save my initials and score
 
 ### Home Page
 
-![Home Page](/assets/homepage.png)
+![Home Page](coding-quiz/assets/homepage.png)
