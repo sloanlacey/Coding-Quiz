@@ -76,9 +76,10 @@ getNewQuestion = () => {
         localStorage.setItem('mostRecentScore', score);
         return window.location.assign("./endquiz.html");
     }
+// Below is the question counter and the text within the question counter and progress bar
     questionCounter++;
     progressText.innerText = "Question " + questionCounter + "/" + MAX_QUESTIONS;
-
+// Progress bar is calculated into a percentage below
     progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 // Math.floor operation allows us to generate a random question by selecting a random number between 0 and 5. We use availableQuestions.length so that as questions get answered, it knows to find a number between 0 and 4, 0 and 3, and so on as questions get answered by the user
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
@@ -105,7 +106,7 @@ choices.forEach((choice) => {
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset['number'];
 
-// Ternary operator (?) tells the code how to function if the condition on line 109 is true, then it is assigned a correct value, and if not it will be assigned the incorrect value
+// Ternary operator (?) tells the code how to function if the condition on line 110 is true, then it is assigned a correct value, and if not it will be assigned the incorrect value
         const classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 // The code above determines whether or not the answer is correct or incorrect (ex: answer choice 4 is correct, user selects 4 then it is true), and the code below tells the application what to do with correct and incorrect answer choices (change score)
         if(classToApply === "correct") {
